@@ -1,3 +1,7 @@
+#ifdef _MSC_VER
+#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
+#endif
+
 #include "mainwindow.h"
 #include <QApplication>
 
